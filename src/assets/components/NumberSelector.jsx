@@ -6,18 +6,38 @@ const NumberSelector = () => {
     const [selectedNumber, setSelectedNumber] = useState();
 
   return (
-    <div>
+    <NumberSelectorContainer>
+        <div className="flex">
         {arrNumber.map((value, i) =>(
             <Box
             isSelected={value === selectedNumber}
             key={1} 
             onClick={() => setSelectedNumber(value)}>{value}</Box>
         ))}
-    </div>
+        </div>
+        <p>Select Number</p>
+    </NumberSelectorContainer>
   )
 }
 
-export default NumberSelector
+export default NumberSelector;
+
+const NumberSelectorContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+
+.flex {
+    display: flex;
+    gap: 24px;
+}
+p{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 24px;
+}
+`;
 
 const Box = styled.div`
     height: 72px;

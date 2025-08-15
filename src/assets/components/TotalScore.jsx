@@ -16,7 +16,8 @@ const ScoreContainer = styled.div `
     text-align: center;
     h1{
         font-size: 100px;
-        line-height: 100px;
+        line-height: 100%;
+        font-weight: 500;
     }
     p{
         font-size: 24px;
