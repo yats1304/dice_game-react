@@ -1,12 +1,37 @@
-# React + Vite
+# 🎲 React Dice Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Dice Roll Game built with **React** and **styled-components**.  
+Click on the dice to roll and generate a random number!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🎲 Dice roll functionality with random number generation  
+- ⚡ Interactive UI built with React  
+- 🎨 Styled using `styled-components`  
+- 🔄 Demonstrates React **state management** and **event handling**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Screenshot
+<img width="1900" height="933" alt="image" src="https://github.com/user-attachments/assets/979cec7d-0105-470b-acaf-d4f651dbcfe0" />
+<img width="1919" height="930" alt="image" src="https://github.com/user-attachments/assets/3cbaab64-ce21-4b86-bb7a-3a09c713c10c" />
+
+
+
+---
+
+## 🚀 Installation & Setup
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/your-username/react-dice-game.git
+
+# 2️⃣ Navigate into the project
+cd react-dice-game
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm start
